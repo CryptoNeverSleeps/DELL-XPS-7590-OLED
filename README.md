@@ -24,6 +24,6 @@ Hackintosh - macOS Catalina 10.15.5 - Open Core 0.5.9
 | Internal SSD - Windows | 970 PRO NVMe M.2 SSD 1TB -                                   |
 | External SSD - macOS   | Samsung PM961 500Gb + Sabrent Rocket Pro NVMe Enclosure      |
 | Audio                  | Realtek ALC298                                               |
-| Wireless               | Dell Wireless DW1560 or Dell Wireless DW1820A                |
+| Wireless               | Dell Wireless DW1820A                |
 | ---------------------- | ------------------------------------------------------------ |
 
