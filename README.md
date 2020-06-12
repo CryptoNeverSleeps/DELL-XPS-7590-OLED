@@ -27,3 +27,5 @@ Hackintosh - macOS Catalina 10.15.5 - Open Core 0.5.9
 | Wireless               | Dell Wireless DW1820A                |
 | ---------------------- | ------------------------------------------------------------ |
 
+
+Need to fix wake from sleep... this will be 100%
