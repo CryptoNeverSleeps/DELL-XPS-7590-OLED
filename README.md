@@ -45,6 +45,6 @@ Need to fix wake from sleep... Then this will be complete...
 
 Most likely ordering a 4K IPS Touchscreen to replace the OLED Display. :(
 
-![About This Mac](AboutThisMac.png)
+![About This Mac](Images/AboutThisMac.png)
 
 
