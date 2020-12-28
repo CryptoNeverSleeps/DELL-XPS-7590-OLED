@@ -41,7 +41,9 @@ https://github.com/romancin/Dell-XPS-7590-OpenCore
 | ---------------------- | ------------------------------------------------------------ |
 
 
-Need to fix wake from sleep... Then this will be complete... -  Most likely ordering a 4K IPS Touchscreen to replace the OLED Display. :(
+Need to fix wake from sleep... Then this will be complete...
+
+Most likely ordering a 4K IPS Touchscreen to replace the OLED Display. :(
 
 ![About This Mac](AboutThisMac.png)
 
