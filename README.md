@@ -5,6 +5,9 @@ Hackintosh - macOS Catalina 10.15.5 - Open Core 0.5.9
 ## Hackintosh XPS 7590 OLED
 
 
+I will be updating this information with macOS Big Sur 11.1 in the next 24 hours.
+
+
 
 ### Configuration
 
@@ -22,7 +25,7 @@ Hackintosh - macOS Catalina 10.15.5 - Open Core 0.5.9
 | Built-In Screen        | 15.6"  4K OLED                                    |
 | RAM                    | Vengeance® Series 64GB (2 x 32GB) DDR4 SODIMM 2666MHz        |
 | Internal SSD - Windows | 970 PRO NVMe M.2 SSD 1TB -                                   |
-| External SSD - macOS   | Samsung PM961 500Gb + Sabrent Rocket Pro NVMe Enclosure      |
+| External SSD - macOS   | Samsung PM961 512GB + Sabrent Rocket Pro NVMe Enclosure      |
 | Audio                  | Realtek ALC298                                               |
 | Wireless               | Dell Wireless DW1820A                                        |
 | ---------------------- | ------------------------------------------------------------ |
