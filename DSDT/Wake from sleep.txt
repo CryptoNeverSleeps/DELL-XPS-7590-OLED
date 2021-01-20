@@ -1,0 +1,136 @@
+                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                {
+                    If ((Arg0 != ToUUID ("033771e0-1705-47b4-9535-d1bbe14d9a09")))
+                    {
+                        Return (Buffer (One)
+                        {
+                             0x00                                             // .
+                        })
+                    }
+
+                    Switch (ToInteger (Arg2))
+                    {
+                        Case (Zero)
+                        {
+                            If ((Arg1 == Zero))
+                            {
+                                Return (Buffer (One)
+                                {
+                                     0x03                                             // .
+                                })
+                            }
+
+                            Break
+                        }
+                        Case (One)
+                        {
+                            If ((Arg1 == Zero))
+                            {
+                                Name (PBUF, Package (0x08)
+                                {
+                                    "DISPLAY_BKLT", 
+                                    0x0A, 
+                                    "MAINMEM_MEMORY", 
+                                    0x02, 
+                                    "MAINMEM_CPU", 
+                                    0x02, 
+                                    "", 
+                                    Zero
+                                })
+                                Return (PBUF) /* \_SB_.PCI0.I2C4.PA02._DSM.PBUF */
+                            }
+
+                            Break
+                        }
+
+                    }
+
+                    Return (Buffer (One)
+                    {
+                         0x00                                             // .
+                    })
+                }
+            }
+
+            Device (PA03)
+            {
+                Name (_HID, "MCHP1930")  // _HID: Hardware ID
+                Name (_UID, 0x03)  // _UID: Unique ID
+                Name (_S0W, 0x03)  // _S0W: S0 Device Wake State
+                Method (_STA, 0, NotSerialized)  // _STA: Status
+                {
+                    If (POME)
+                    {
+                        Return (0x0F)
+                    }
+
+                    Return (Zero)
+                }
+
+                Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+                {
+                    Name (RBUF, ResourceTemplate ()
+                    {
+                        I2cSerialBusV2 (0x001A, ControllerInitiated, 0x00061A80,
+                            AddressingMode7Bit, "\\_SB.PCI0.I2C4",
+                            0x00, ResourceConsumer, , Exclusive,
+                            )
+                    })
+                    Return (RBUF) /* \_SB_.PCI0.I2C4.PA03._CRS.RBUF */
+                }
+
+                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                {
+                    If ((Arg0 != ToUUID ("033771e0-1705-47b4-9535-d1bbe14d9a09")))
+                    {
+                        Return (Buffer (One)
+                        {
+                             0x00                                             // .
+                        })
+                    }
+
+                    Switch (ToInteger (Arg2))
+                    {
+                        Case (Zero)
+                        {
+                            If ((Arg1 == Zero))
+                            {
+                                Return (Buffer (One)
+                                {
+                                     0x03                                             // .
+                                })
+                            }
+
+                            Break
+                        }
+                        Case (One)
+                        {
+                            If ((Arg1 == Zero))
+                            {
+                                Name (PBUF, Package (0x08)
+                                {
+                                    "DISPLAY_PANEL", 
+                                    0x0A, 
+                                    "GPU_1", 
+                                    0x02, 
+                                    "GPU_2", 
+                                    0x02, 
+                                    "SYSTEM_POWER", 
+                                    0x02
+                                })
+                                Return (PBUF) /* \_SB_.PCI0.I2C4.PA03._DSM.PBUF */
+                            }
+
+                            Break
+                        }
+
+                    }
+
+                    Return (Buffer (One)
+                    {
+                         0x00                                             // .
+                    })
+                }
+            }
+        }
+    }
