@@ -55,8 +55,10 @@ https://github.com/romancin/Dell-XPS-7590-OpenCore
 * Input：keyboard & touchpad working.
 * HDMI Port：cold-plug working，hotplug half-working.
 * USB port： Type-A port x 2 (Max 5 Gbps) and Type-C port x 1 (Max 10 Gbps)
+* Sidecar.
 * Brightness Controll: wokring on Non-OLED Screen.
 * Sleep/Wake: working on Non-OLED Screen.
+* Apple Watch Unlock - Requires Turning off / on again after each rebooot.
 
 
 # What's Not Working: - Credit - https://github.com/geek5nan/Hackintosh-XPS7590
