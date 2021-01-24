@@ -10,6 +10,8 @@ https://dortania.github.io/OpenCore-Install-Guide/
 
 https://github.com/stakeout55/Dell-XPS-7590-mac-OS-Big-Sur-11.1
 
+https://github.com/geek5nan/Hackintosh-XPS7590
+
 https://github.com/xxxzc/xps15-9570-macos
 
 https://github.com/daliansky/XPS15-7590-Hackintosh
