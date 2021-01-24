@@ -25,7 +25,10 @@ https://github.com/romancin/Dell-XPS-7590-OpenCore
 
 **OpenCore Version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases)
 
+**Sanity Check**: [](https://opencore.slowgeek.com/?file=laptopcoffeelakeplus065DYnYVF&rs=laptopcoffeelakeplus065)
+
 **macOS Version**: macOS Big Sur 11.1
+
 
 ### Specifications
 
